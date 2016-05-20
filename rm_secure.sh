@@ -1,15 +1,16 @@
+#! /bin/sh
 sauvegarde_rm=~/.rm_saved/
 
 function rm
 {	
-	local opt_force=0
-	local opt_interactive=0
-	local opt_recursive=0
-	local opt_verbose=0
-	local opt_empty=0
-	local opt_list=0
-	local opt_restore=0
-	local opt
+	opt_force=0
+	opt_interactive=0
+	opt_recursive=0
+	opt_verbose=0
+	opt_empty=0
+	opt_list=0
+	opt_restore=0
+	opt=
 
 	OPTIND=0
 # Analyse des arguments de la ligne de commande
@@ -80,7 +81,7 @@ function rm
 		while [ -n "$1" ] ; do
 # Pour les suppressions interactives, interroger l'utilisateur
 			if [ $opt_force -ne 1 ] && [ $opt_interactive -ne 0 ] ; then
-				local reponse
+				reponse=
 				echo -n "Détruire $1 ? "
 				read reponse
 				if [ "$reponse" != "y" ] && [ "$reponse" != "Y" ] &&
