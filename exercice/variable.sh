@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 
 variable="bonjour"
 suite=" monsieur"
@@ -43,11 +43,11 @@ echo "prenom : "$my" nom "$last
 
 var=ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
-echo "les : ne fonctionne pas chez moi pour l'extraction de sous chaine"
-#echo "On enleve les 5 premieres lettres et on affiche les 2 suivantes"
-#echo ${var:5:2} #enleve les 5 premieres letres
-#echo "J'enleve les 20 premieres lettres :"
-#echo ${var:20} #enleve les 20 premieres lettres
+echo "Fonctionne avec bash mais avec sh renseigner bash dans shebang #!"
+echo "On enleve les 5 premieres lettres et on affiche les 2 suivantes"
+echo ${var:5:2} #enleve les 5 premieres letres
+echo "J'enleve les 20 premieres lettres :"
+echo ${var:20} #enleve les 20 premieres lettres
 
 #Autres façon de faire avec l'opérateur #
 var1=AZERTYUIOPAZERTYUIOP

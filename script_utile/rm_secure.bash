@@ -1,5 +1,5 @@
-#! /bin/sh
-sauvegarde_rm=~/.rm_saved/
+#!/bin/bash
+sauvegarde_rm=${SAUVEGARDE_RM:-~/.rm_saved/}
 
 function rm
 {	

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#Ouvre firefox si pas ouvert sinon ajoute juste les deux onglets précisser
+gnome-terminal -e 'bash -c "firefox https://openclassrooms.com/dashboard"'
+gnome-terminal -e 'bash -c "firefox -new-tab https://translate.google.fr/?hl=fr#en/fr/hello"'
+
+
+#Ouvre le livre sur les scripts
+gnome-terminal -e 'bash -c "evince home/doc2rue/Bureau/livre_openclassroom/scripts-shell-linux-et-unix-avec-30-scripts-prets-a-l-emploi.pdf'
+
+#Ouvre un terminal et demarre vim avec explore de fichier du repertoire site_php
+gnome-terminal -e 'bash -c "cd /home/doc2rue/Bureau/site_php/;vim ."'
+#Trouver le moyen de deplacer le terminal dans l'espace de travail désiré
+
+#Ouvre un terminal avec vim explore
+gnome-terminal -e 'bash -c "cd/home/SHELL/SHELL/;vim ."'
