@@ -1,16 +1,16 @@
 #!/bin/bash
-sauvegarde_rm=${SAUVEGARDE_RM:-~/.rm_saved/}
+sauvegarde_rm=~/.rm_saved/
 
 function rm
 {	
-	opt_force=0
-	opt_interactive=0
-	opt_recursive=0
-	opt_verbose=0
-	opt_empty=0
-	opt_list=0
-	opt_restore=0
-	opt=
+	local opt_force=0
+	local opt_interactive=0
+	local opt_recursive=0
+	local opt_verbose=0
+	local opt_empty=0
+	local opt_list=0
+	local opt_restore=0
+	local opt=
 
 	OPTIND=0
 # Analyse des arguments de la ligne de commande
@@ -58,14 +58,14 @@ function rm
 
 # Vider la poubelle
 		if [ $opt_empty -ne 0 ] ; then
-			/bin/rm -rf "$sauvegarde_rm"
+			/bin/rm -ri "$sauvegarde_rm"
 			return 0
 		fi
 
 # Liste des fichiers sauvés
 		if [ $opt_list -ne 0 ] ; then
 			( cd "$sauvegarde_rm"
-			  ls -lRa * )
+			  ls -lRa  )
 		fi	
 
 # Récupération de fichiers
@@ -81,7 +81,7 @@ function rm
 		while [ -n "$1" ] ; do
 # Pour les suppressions interactives, interroger l'utilisateur
 			if [ $opt_force -ne 1 ] && [ $opt_interactive -ne 0 ] ; then
-				reponse=
+				local reponse=
 				echo -n "Détruire $1 ? "
 				read reponse
 				if [ "$reponse" != "y" ] && [ "$reponse" != "Y" ] &&
@@ -98,9 +98,11 @@ function rm
 			if [ $opt_verbose -ne 0 ] ; then
 				echo "Suppression $1"
 			fi
+			chmod 700 $1
 			mv -f "$1" "${sauvegarde_rm}/"
 			shift
 		done
 }
 
-trap "/bin/rm -rf $sauvegarde_rm" EXIT
+#trap "/bin/rm -rf $sauvegarde_rm" EXIT
+#Suprime le repertoire de sauvegarde a la fin de l'execution du script

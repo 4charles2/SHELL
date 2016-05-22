@@ -6,7 +6,7 @@ gnome-terminal -e 'bash -c "sleep 5; firefox http://mfmradio.fr/radio/webradio/1
 gnome-terminal -e 'bash -c "sleep 5;firefox https://translate.google.fr/?hl=fr#en/fr/hello"'
 
 #Ouvre le livre sur les scripts
-gnome-terminal -e 'bash -c "evince --page-index=59 /home/doc2rue/Bureau/livre_openclassroom/livre/scripts_shell.pdf"'
+gnome-terminal -e 'bash -c "sleep 6;evince --page-index=59 /home/doc2rue/Bureau/livre_openclassroom/livre/scripts_shell.pdf"'
 
 #Ouvre un terminal et demarre vim avec explore de fichier du repertoire site_php
 gnome-terminal -e 'bash -c "cd /home/doc2rue/Bureau/site_php/;vim ."'
