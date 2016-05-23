@@ -1,0 +1,4 @@
+Je doit ecrire mon code sur la sortie standar
+#!/bin/bash
+echo "Je doit ecrire mon code sur la sortie standar"
+cat show_my_code.bash

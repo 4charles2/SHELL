@@ -1,0 +1,8 @@
+#!/bin/bash
+
+while [ -n "$1" ]; do
+	content=$(cat $1 | tr [a-z] [A-Z])
+	echo "$content" > $1
+	echo "Voici le resultat : "$(cat "$1")
+	shift
+done
