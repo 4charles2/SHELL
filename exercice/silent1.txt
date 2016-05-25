@@ -1,0 +1,194 @@
+grep: /etc/acpi: est un dossier
+grep: /etc/akonadi: est un dossier
+grep: /etc/alternatives: est un dossier
+/etc/anacrontab:HOME=/root
+/etc/anacrontab:LOGNAME=root
+grep: /etc/apm: est un dossier
+grep: /etc/apparmor: est un dossier
+grep: /etc/apparmor.d: est un dossier
+grep: /etc/apport: est un dossier
+grep: /etc/apt: est un dossier
+grep: /etc/aptdaemon: est un dossier
+grep: /etc/at-spi2: est un dossier
+grep: /etc/avahi: est un dossier
+/etc/bash.bashrc:# set variable identifying the chroot you work in (used in the prompt below)
+/etc/bash.bashrc:if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+/etc/bash.bashrc:    debian_chroot=$(cat /etc/debian_chroot)
+/etc/bash.bashrc:    PS1='${debian_chroot:+($debian_chroot)}\[\033[04;31m\]\u@\h\[\033[00m\]:\[\033[01;33m\]\w\[\033[01;32m\]\$ '
+/etc/bash.bashrc:    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+/etc/bash.bashrc:    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+/etc/bash.bashrc:alias rm='rm --preserve-root'
+grep: /etc/bash_completion.d: est un dossier
+grep: /etc/blkid.tab: Aucun fichier ou dossier de ce type
+grep: /etc/bluetooth: est un dossier
+grep: /etc/bonobo-activation: est un dossier
+grep: /etc/brltty: est un dossier
+grep: /etc/ca-certificates: est un dossier
+/etc/ca-certificates.conf:mozilla/Comodo_AAA_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Secure_Services_root.crt
+/etc/ca-certificates.conf:mozilla/Comodo_Trusted_Services_root.crt
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_AAA_Services_root.crt
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_Secure_Services_root.crt
+/etc/ca-certificates.conf.dpkg-old:mozilla/Comodo_Trusted_Services_root.crt
+grep: /etc/calendar: est un dossier
+grep: /etc/chatscripts: est un dossier
+grep: /etc/chromium-browser: est un dossier
+grep: /etc/compizconfig: est un dossier
+grep: /etc/ConsoleKit: est un dossier
+grep: /etc/console-setup: est un dossier
+grep: /etc/cracklib: est un dossier
+grep: /etc/cron.d: est un dossier
+grep: /etc/cron.daily: est un dossier
+grep: /etc/cron.hourly: est un dossier
+grep: /etc/cron.monthly: est un dossier
+/etc/crontab:17 *	* * *	root    cd / && run-parts --report /etc/cron.hourly
+/etc/crontab:25 6	* * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.daily )
+/etc/crontab:47 6	* * 7	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.weekly )
+/etc/crontab:52 6	1 * *	root	test -x /usr/sbin/anacron || ( cd / && run-parts --report /etc/cron.monthly )
+grep: /etc/cron.weekly: est un dossier
+grep: /etc/cups: est un dossier
+grep: /etc/cupshelpers: est un dossier
+grep: /etc/dbus-1: est un dossier
+grep: /etc/dconf: est un dossier
+grep: /etc/default: est un dossier
+grep: /etc/depmod.d: est un dossier
+grep: /etc/dhcp: est un dossier
+grep: /etc/dictionaries-common: est un dossier
+grep: /etc/dnsmasq.d: est un dossier
+grep: /etc/doc-base: est un dossier
+grep: /etc/dpkg: est un dossier
+grep: /etc/emacs: est un dossier
+grep: /etc/firefox: est un dossier
+grep: /etc/fonts: est un dossier
+grep: /etc/fstab.d: est un dossier
+grep: /etc/fuse.conf: Permission non accordée
+grep: /etc/gconf: est un dossier
+grep: /etc/gdb: est un dossier
+grep: /etc/ghostscript: est un dossier
+grep: /etc/gimp: est un dossier
+grep: /etc/gnome: est un dossier
+grep: /etc/gnome-app-install: est un dossier
+grep: /etc/gnome-vfs-2.0: est un dossier
+grep: /etc/groff: est un dossier
+/etc/group:root:x:0:
+grep: /etc/group-: Permission non accordée
+grep: /etc/grub.d: est un dossier
+grep: /etc/gshadow: Permission non accordée
+grep: /etc/gshadow-: Permission non accordée
+grep: /etc/gtk-2.0: est un dossier
+grep: /etc/gtk-3.0: est un dossier
+/etc/hdparm.conf:## the keyword 'command_line' are not run until after the root filesystem
+/etc/hdparm.conf:## to run hdparm to set parameters for your root disk, please use the 
+grep: /etc/hotplug: est un dossier
+grep: /etc/hp: est un dossier
+grep: /etc/ifplugd: est un dossier
+grep: /etc/ImageMagick: est un dossier
+grep: /etc/init: est un dossier
+grep: /etc/init.d: est un dossier
+grep: /etc/initramfs-tools: est un dossier
+grep: /etc/insserv: est un dossier
+grep: /etc/insserv.conf.d: est un dossier
+grep: /etc/iproute2: est un dossier
+grep: /etc/java-7-openjdk: est un dossier
+grep: /etc/kbd: est un dossier
+grep: /etc/kde4: est un dossier
+grep: /etc/kernel: est un dossier
+grep: /etc/kubuntu-default-settings: est un dossier
+grep: /etc/ldap: est un dossier
+Fichier binaire /etc/ld.so.cache correspondant
+grep: /etc/ld.so.conf.d: est un dossier
+grep: /etc/libnl-3: est un dossier
+grep: /etc/libpaper.d: est un dossier
+grep: /etc/libreoffice: est un dossier
+grep: /etc/lightdm: est un dossier
+grep: /etc/logcheck: est un dossier
+/etc/login.defs:# (examples: 022 -> 002, 077 -> 007) for non-root users, if the uid is
+/etc/logrotate.conf:su root syslog
+/etc/logrotate.conf:    create 0664 root utmp
+/etc/logrotate.conf:    create 0660 root utmp
+grep: /etc/logrotate.d: est un dossier
+/etc/ltrace.conf:int   SYS_chroot(string);
+/etc/mailcap.order:#  After modifying this file, be sure to run /usr/sbin/update-mime (as root)
+grep: /etc/modprobe.d: est un dossier
+grep: /etc/modules-load.d: est un dossier
+grep: /etc/mono: est un dossier
+grep: /etc/mtab.fuselock: Permission non accordée
+grep: /etc/mysql: est un dossier
+/etc/netscsid.conf:# If no USER= entry is present, only root is allowed to run rscsi.
+/etc/netscsid.conf:# Note that rscsi runs as root and thus may be able to overwrite any file.
+grep: /etc/network: est un dossier
+grep: /etc/NetworkManager: est un dossier
+grep: /etc/newt: est un dossier
+grep: /etc/obex-data-server: est un dossier
+grep: /etc/ODBCDataSources: est un dossier
+grep: /etc/openal: est un dossier
+grep: /etc/opt: est un dossier
+grep: /etc/pam.d: est un dossier
+/etc/passwd:root:x:0:0:root:/root:/bin/bash
+grep: /etc/passwd-: Permission non accordée
+grep: /etc/pcmcia: est un dossier
+grep: /etc/perl: est un dossier
+grep: /etc/pki: est un dossier
+grep: /etc/pm: est un dossier
+grep: /etc/polkit-1: est un dossier
+grep: /etc/ppp: est un dossier
+grep: /etc/profile.d: est un dossier
+grep: /etc/pulse: est un dossier
+grep: /etc/python: est un dossier
+grep: /etc/python2.7: est un dossier
+grep: /etc/python3: est un dossier
+grep: /etc/python3.4: est un dossier
+grep: /etc/rc0.d: est un dossier
+grep: /etc/rc1.d: est un dossier
+grep: /etc/rc2.d: est un dossier
+grep: /etc/rc3.d: est un dossier
+grep: /etc/rc4.d: est un dossier
+grep: /etc/rc5.d: est un dossier
+grep: /etc/rc6.d: est un dossier
+grep: /etc/rcS.d: est un dossier
+grep: /etc/resolvconf: est un dossier
+grep: /etc/rsyslog.d: est un dossier
+grep: /etc/samba: est un dossier
+grep: /etc/sane.d: est un dossier
+grep: /etc/screenrc: Permission non accordée
+/etc/securetty:# /etc/securetty: list of terminals on which root is allowed to login.
+grep: /etc/security: est un dossier
+grep: /etc/selinux: est un dossier
+grep: /etc/sensors.d: est un dossier
+/etc/services:rootd		1094/tcp
+/etc/services:rootd		1094/udp
+grep: /etc/sgml: est un dossier
+grep: /etc/shadow: Permission non accordée
+grep: /etc/shadow-: Permission non accordée
+grep: /etc/signon-ui: est un dossier
+grep: /etc/skel: est un dossier
+grep: /etc/sound: est un dossier
+grep: /etc/speech-dispatcher: est un dossier
+grep: /etc/ssh: est un dossier
+grep: /etc/ssl: est un dossier
+grep: /etc/subgid-: Permission non accordée
+grep: /etc/subuid-: Permission non accordée
+grep: /etc/sudoers: Permission non accordée
+grep: /etc/sudoers.d: est un dossier
+grep: /etc/sysctl.d: est un dossier
+grep: /etc/systemd: est un dossier
+grep: /etc/terminfo: est un dossier
+grep: /etc/thermald: est un dossier
+grep: /etc/thunderbird: est un dossier
+grep: /etc/timidity: est un dossier
+grep: /etc/udev: est un dossier
+grep: /etc/udisks2: est un dossier
+grep: /etc/ufw: est un dossier
+grep: /etc/update-manager: est un dossier
+grep: /etc/update-motd.d: est un dossier
+grep: /etc/update-notifier: est un dossier
+grep: /etc/UPower: est un dossier
+grep: /etc/usb_modeswitch.d: est un dossier
+grep: /etc/vim: est un dossier
+grep: /etc/wildmidi: est un dossier
+/etc/wodim.conf:# or wodim runs with suid-root permissions.
+grep: /etc/wpa_supplicant: est un dossier
+grep: /etc/X11: est un dossier
+grep: /etc/xdg: est un dossier
+grep: /etc/xml: est un dossier
+grep: /etc/xul-ext: est un dossier
