@@ -1,8 +1,8 @@
 #!/bin/bash
 
-func mygit
+export function mygit
 {
-	$reponse=
+	local $reponse=
 
 	echo "Voici la liste des fichiers qui va être push : "
 	git status
@@ -17,7 +17,7 @@ func mygit
 
 			echo -n "Entrer le message de commit : "
 			read reponse
-			git add -A ; git commit -m "$reponse" ; git push origin master
+			git add -A :/ ; git commit -m "$reponse" ; git push origin master
 		break;
 		else
 			echo "Vous avez entrer un mauvais choix : "
