@@ -15,7 +15,7 @@ if [ -f ~/.netrc ] ;then
 	mv ~/.netrc ~/.netrc.back
 fi
 
-#Créer un nouveau ~/Bureau/SHELL/SHELL/exercice/.netrc
+#Créer un nouveau ~/.netrc
 #avec uniquement les infos concernant la connexion voulue
 
 ANCIEN_UMASK=$(umask)
