@@ -1,0 +1,11 @@
+#Voici la liste des adresses ip connecté sur ma box freebox
+Starting Nmap 6.40 ( http://nmap.org ) at 2016-06-06 14:44 CEST
+Nmap scan report for 192.168.0.12 #C'est le pc de sihame (love pc)
+Host is up (0.0054s latency).
+Nmap scan report for 192.168.0.27 #Ceci est le petit pc (test pc)
+Host is up (0.0031s latency).
+Nmap scan report for 192.168.0.36 #Ceci est le gros PC (The PC)
+Host is up (0.000033s latency).
+Nmap scan report for 192.168.0.254 #freebox
+Host is up (0.00086s latency).
+Nmap done: 255 IP addresses (4 hosts up) scanned in 14.28 seconds
