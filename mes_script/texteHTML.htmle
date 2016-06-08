@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<p>Un texte en html qui va me remplacer tous les caract&egrave;re avec accent de la table latin_1 en entities html
+			&Acirc;
+			&AElig;
+			&Ccedil;
+			&Egrave;
+			&Eacute;
+			&Ecirc;
+			&Euml;
+			&Icirc;
+			&Iuml;
+			&Ocirc;
+			&Ugrave;
+			&Ucirc;
+			&Uuml;
+			&agrave;
+			&acirc;
+			&aelig;
+			&ccedil;
+			&egrave;
+			&eacute;
+			&ecirc;
+			&euml;
+			&icirc;
+			&iuml;
+			&ocirc;
+			&ugrave;
+			&ucirc;
+			&uuml;
+			Ÿ
+		</p>
+	</body>
+</html>

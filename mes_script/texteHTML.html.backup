@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<p>Un texte en html qui va me remplacer tous les caractère avec accent de la table latin_1 en entities html
+			Â
+			Æ
+			Ç
+			È
+			É
+			Ê
+			Ë
+			Î
+			Ï
+			Ô
+			Ù
+			Û
+			Ü
+			à
+			â
+			æ
+			ç
+			è
+			é
+			ê
+			ë
+			î
+			ï
+			ô
+			ù
+			û
+			ü
+			Ÿ
+		</p>
+	</body>
+</html>
