@@ -6,8 +6,8 @@ MACHINE=${1:?Pas de machine indiquée}
 CHEMIN=${2:?Pas de chemin indiqué}
 FICHIERS=${3:?Pas de fichiers indiqués}
 
-LOGIN=${4:-4charles2}
-PASSWORD=${5:-Sihame1986}
+LOGIN=${4:-LOGIN}
+PASSWORD=${5:-PASSWORD}
 
 #D'abord sauver l'éventuel fichier ~/.netrc
 
