@@ -5,7 +5,9 @@
 echo "Calcule le nombre de dossier pour la barre de progression"
 init=${1-*}
 #Cette ligne compte le nombre de repertoire mais exclus les fichiers caché
-number=$(find $init -type d -and -not -path \*/.\* | wc -l) 2>/dev/null
+#LE Shell pattern \*/.\* n'est pas un eexpression rationnelle les back-slash sont juste la pour empêcher 
+#le shell de l'interpréter lui-même. Ça laisse donc */.* qui va être comparé au chemin complet du fichier (-path), comme le slash est le séparateur de noms de fichiers ça signifie tout le fichier dont le nom commence par un point
+number=$(find $init -type d -prune -path \*/.\* | wc -l) 2>/dev/null
 nb_dossier=0
 BCDIR=$(which bc)
 I=1
