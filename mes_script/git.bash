@@ -1,6 +1,6 @@
 #!/bin/bash
 
-local $reponse=
+$reponse=
 
 echo "Voici la liste des fichiers qui va être push : "
 git status
